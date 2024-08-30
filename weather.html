@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge-Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="logo.webp" type="image/x-icon">
+</head>
+<body>
+    <video src="weatherbg-vid.mp4" muted loop autoplay></video>
+    <div class = "container"> 
+        <h1>Merge Weather App</h1>
+        <input type="text" id="locationInput" placeholder = "Enter your City" required spellcheck="false">
+        <br>
+        <button id="searchButton" class="goback">Search</button>
+        <div class="weather-info">
+            <h2 id ="location"></h2>
+            <p id = "temperature"></p> 
+            <p id = "description"></p>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
